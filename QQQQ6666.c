@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 void func(int n1,int b1){
-    char data[] ="0000000000000";
+    char ch,data[] ="0000000000000";
     int j, h, m;
-    char ch;
 
     j = 12;
     while(n1 != 0){
