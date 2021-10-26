@@ -2,11 +2,12 @@
 
 void func(int n1,int b1){
     char data[] ="0000000000000";
-    int i,j, h, m;
+    int j, h, m;
     char ch;
 
-    i = 0; j = 12;
+    j = 12;
     while(n1 != 0){
+
         m = n1 % b1;
         h = n1 / b1;
         n1 = h;
@@ -48,7 +49,6 @@ void func(int n1,int b1){
 
         data[j] = ch;
 
-        i++;
         j--;
     }
     printf("%s\n",data);
