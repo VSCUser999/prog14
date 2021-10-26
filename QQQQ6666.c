@@ -42,7 +42,7 @@ void func(int n1,int b1){
             case 9:
                 ch = '9';
                 break;
-            defalt:
+            default:
                 ch = '0';
         }
 
